@@ -13,7 +13,9 @@ class App extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-1">
-              <Header uid = {1} sex = {"male"} user = {user}/>
+              <Header uid = {1} sex = {"male"} user = {user}>
+                  <h1>this is child node</h1>
+              </Header>
             </div>
           </div>
           <div className="row">
