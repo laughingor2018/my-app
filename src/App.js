@@ -4,11 +4,16 @@ import Header from "./components/Header"
 
 class App extends Component {
   render() {
+    const user = {
+      name:"michael",
+      family:["jenny","rain","sam"]
+    };
+
     return (
         <div className="container">
           <div className="row">
             <div className="col-xs-1">
-              <Header/>
+              <Header uid = {1} sex = {"male"} user = {user}/>
             </div>
           </div>
           <div className="row">
